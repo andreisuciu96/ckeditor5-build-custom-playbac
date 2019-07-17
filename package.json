@@ -1,6 +1,6 @@
 {
   "name": "@andreisuciu29/ckeditor5-build-custom-playbac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The rich text editor custom made for Playbac.",
   "keywords": [
     "ckeditor5-build",
