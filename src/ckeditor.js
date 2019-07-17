@@ -36,23 +36,42 @@ ClassicEditor.defaultConfig = {
 		items: [
 			'bold',
 			'italic',
-			'highlight'
+			'|',
+			'highlight:yellowMarker',
+			'highlight:redMarker',
+			'highlight:bluePen',
+			'highlight:orangePen',
+			'removeHighlight'
 		]
 	},
 	highlight: {
 		options: [
 			{
-				model: 'greenMarker',
-				class: 'marker-green',
-				title: 'Green marker',
-				color: 'var(--ck-highlight-marker-green)',
+				model: 'yellowMarker',
+				class: 'marker-yellow',
+				title: 'Yellow Highlight',
+				color: '#cac407',
 				type: 'marker'
 			},
 			{
-				model: 'redPen',
-				class: 'pen-red',
-				title: 'Red pen',
-				color: 'var(--ck-highlight-pen-red)',
+				model: 'redMarker',
+				class: 'marker-red',
+				title: 'Red Highlight',
+				color: '#ff0000',
+				type: 'marker'
+			},
+			{
+				model: 'bluePen',
+				class: 'pen-blue',
+				title: 'Blue Color',
+				color: '#148f88',
+				type: 'pen'
+			},
+			{
+				model: 'orangePen',
+				class: 'pen-orange',
+				title: 'Orange Color',
+				color: '#ec6851',
 				type: 'pen'
 			}
 		]
