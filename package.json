@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-custom-playbac",
-  "version": "12.1.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@andreisuciu29/ckeditor5-build-custom-playbac",
+  "version": "1.0.0",
+  "description": "The rich text editor custom made for Playbac.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -60,13 +60,11 @@
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "Andrei Suciu <andrei.suciu29@gmail.com>",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5-build-classic/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreisuciu96/ckeditor5-build-custom-playbac.git"
+    "url": "git+https://github.com/andreisuciu96/ckeditor5-build-custom-playbac.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -92,5 +90,12 @@
     "@ckeditor/ckeditor5-editor-classic": "^12.1.0",
     "@ckeditor/ckeditor5-essentials": "^11.0.1",
     "@ckeditor/ckeditor5-highlight": "^11.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/andreisuciu96/ckeditor5-build-custom-playbac/issues"
+  },
+  "homepage": "https://github.com/andreisuciu96/ckeditor5-build-custom-playbac#readme",
+  "directories": {
+    "test": "tests"
   }
 }
