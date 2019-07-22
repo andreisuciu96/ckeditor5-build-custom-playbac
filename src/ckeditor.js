@@ -49,28 +49,28 @@ ClassicEditor.defaultConfig = {
 			{
 				model: 'yellowMarker',
 				class: 'marker-yellow',
-				title: 'Yellow Highlight',
+				title: 'surligneur jaune',
 				color: '#cac407',
 				type: 'marker'
 			},
 			{
 				model: 'redMarker',
 				class: 'marker-red',
-				title: 'Red Highlight',
+				title: 'surligneur rouge',
 				color: '#ff0000',
 				type: 'marker'
 			},
 			{
 				model: 'bluePen',
 				class: 'pen-blue',
-				title: 'Blue Color',
+				title: 'stylo bleu',
 				color: '#148f88',
 				type: 'pen'
 			},
 			{
 				model: 'orangePen',
 				class: 'pen-orange',
-				title: 'Orange Color',
+				title: 'stylo orange',
 				color: '#ec6851',
 				type: 'pen'
 			}
